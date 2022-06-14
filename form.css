@@ -1,0 +1,44 @@
+/* footer */
+
+form {
+    padding: 40px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 70%;
+    /* padding: 12px 20px;
+    margin: 8px 0; */
+    box-sizing: border-box;
+    border: none;
+    background-color: #000;
+    border-bottom: 2px solid #fff;
+    padding-top: 1em;
+    color: rgb(101, 99, 99);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 30%;
+    padding: 10px;
+}
+
+input[value="Enter your name"],
+input[value="Enter your email address"] {
+    color: rgb(101, 99, 99);
+    padding-bottom: 4px;
+    font-size: 18px;
+}
+
+label {
+    font-size: 14px;
+}
+
+#besked {
+    margin-top: 0.7em;
+    text-align: right;
+    color: rgb(87, 78, 78);
+}

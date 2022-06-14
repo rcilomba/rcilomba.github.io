@@ -1,0 +1,19 @@
+/* gallery */
+
+.photogallery {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.photogallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    margin: 3px;
+    margin-bottom: 1%;
+}
+
+.flex {
+    flex: 1;
+}
