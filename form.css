@@ -4,6 +4,32 @@ form {
     padding: 40px;
 }
 
+
+/* green form */
+
+.form-green input[type=text],
+.form-green input[type=email] {
+    width: 70%;
+    /* padding: 12px 20px;
+    margin: 8px 0; */
+    box-sizing: border-box;
+    border: none;
+    background-color: #8EB676;
+    border-bottom: 2px solid #000;
+    padding-top: 1em;
+    color: rgb(6, 54, 18);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    resize: none;
+}
+
+.form-green input[type="submit"] {
+    width: 20%;
+    color: #8EB676;
+    background-color: #000;
+    border: none;
+}
+
 input[type=text],
 input[type=email],
 textarea {
@@ -24,6 +50,7 @@ textarea {
 input[type=submit] {
     width: 30%;
     padding: 10px;
+    border: none;
 }
 
 input[value="Enter your name"],

@@ -12,15 +12,21 @@
 }
 
 .gallery-grid {
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
     padding: 7em 0 3.5em;
+    /* tillägg */
+    /* border: 3px solid #fff;
+    width: 300px;
+    height: 150px; */
 }
 
 .gallery {
     grid-column: 2/3;
     grid-template-columns: repeat(1, auto);
+    /* box-shadow: 13px 13px #fff; */
+    box-shadow: rgba(16, 91, 57, 0.4) 5px 5px, rgba(10, 141, 91, 0.3) 10px 10px;
 }
 
 .slider {
