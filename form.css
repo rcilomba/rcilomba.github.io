@@ -28,6 +28,7 @@ form {
     color: #8EB676;
     background-color: #000;
     border: none;
+    cursor: pointer;
 }
 
 input[type=text],
@@ -51,10 +52,12 @@ input[type=submit] {
     width: 30%;
     padding: 10px;
     border: none;
+    cursor: pointer;
 }
 
-input[value="Enter your name"],
-input[value="Enter your email address"] {
+input[placeholder="Enter your name"],
+input[placeholder="Enter your email address"],
+textarea[placeholder="You can write to be in this field and I will get back to you as soon as possible."] {
     color: rgb(101, 99, 99);
     padding-bottom: 4px;
     font-size: 18px;
