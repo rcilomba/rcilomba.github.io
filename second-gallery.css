@@ -17,3 +17,11 @@
 .flex {
     flex: 1;
 }
+
+@media screen and (max-width:480px) {
+    .photogallery {
+        width: 90%;
+        margin: 0 auto;
+        padding-right: 11%;
+    }
+}

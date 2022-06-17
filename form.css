@@ -72,3 +72,9 @@ label {
     text-align: right;
     color: rgb(87, 78, 78);
 }
+
+@media screen and (max-width:768px) {
+    form {
+        padding: 1px;
+    }
+}

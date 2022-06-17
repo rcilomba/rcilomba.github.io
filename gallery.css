@@ -72,3 +72,11 @@
         width: 250px;
     }
 }
+
+@media screen and (max-width:480px) {
+    .gallery-grid {
+        width: 640px;
+        width: 300px;
+        grid-area: 2/1/2/-1;
+    }
+}
