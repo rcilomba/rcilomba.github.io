@@ -10,18 +10,22 @@
     width: 100%;
     height: auto;
     border: 2px solid #fff;
+    -webkit-border: 2px solid #fff;
+    -moz-border: 2px solid #fff;
     margin: 3px;
     margin-bottom: 1%;
 }
 
 .flex {
     flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
 }
 
 @media screen and (max-width:480px) {
     .photogallery {
         width: 90%;
         margin: 0 auto;
-        padding-right: 11%;
+        /* padding-right: 11%; */
     }
 }
