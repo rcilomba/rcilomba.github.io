@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    padding-top: 1em;
+    font-size: 40px;
+}
+
+.logo {
+    margin-top: 1em;
+    width: 10%;
+}
+
+.main__content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    padding-bottom: 10em;
+}
+
+section {
+    padding-top: 5em;
+}
+
+.section1 {
+    grid-column: 1/2;
+    /* max-width: 640px; */
+}
+
+h2 {
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.section1 h2 {
+    padding-bottom: 1.5em;
+}
+
+.section2 {
+    grid-column: 2/-1;
+}
+
+.knap {
+    color: green;
+}
+
+table {
+    padding-top: 2em;
+}
+
+th,
+td {
+    /* space between th och td */
+    width: 1%;
+}
+
+
+/* localstorage */
+
+button {
+    width: 35%;
+    padding: 10px;
+    color: green;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+#number-click {
+    margin-top: .7em;
+    font-size: 30px;
+}
+
+.xtra-txt {
+    display: none;
+}
+
+
+/* form */
+
+form {
+    width: 40em;
+    padding: 2em;
+    background-color: rgb(52, 154, 116);
+}
+
+label {
+    width: 20%;
+    padding: 0.3em 0;
+    display: inline-block;
+}
+
+input {
+    width: 70%;
+}
+
+label,
+input {
+    margin-bottom: 0.6em;
+    padding: 0.3em;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+#besked {
+    margin-top: 0.7em;
+    text-align: right;
+    color: #F00;
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        padding-left: 10%;
+    }
+    .main__content {
+        display: block;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    .section2 {
+        max-width: 75%;
+    }
+    .photogallery2 {
+        max-width: 75%;
+    }
+    .xtra-txt {
+        max-width: 90%;
+    }
+    .gallery-container {
+        max-width: 75%;
+    }
+    #form1 {
+        max-width: 65%;
+    }
+    .read-more {
+        max-width: 75%;
+    }
+    .gallery-grid {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    h1 {
+        padding-left: 10%;
+    }
+    .main__content {
+        margin: 0 auto;
+        display: block;
+        margin-left: 2.5em;
+    }
+    .section2 {
+        max-width: 45%;
+    }
+    .photogallery2 {
+        max-width: 45%;
+    }
+    .gallery-container {
+        max-width: 45%;
+    }
+    #form1 {
+        max-width: 38%;
+    }
+    .read-more {
+        max-width: 48%;
+    }
+    label {
+        font-size: 12px;
+    }
+    table {
+        max-width: 50%;
+    }
+}

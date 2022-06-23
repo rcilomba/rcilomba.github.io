@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myWork.css">
+    <link rel="stylesheet" href="gallerypile.css">
+    <link rel="stylesheet" href="gallerythumbs.css">
+    <link rel="stylesheet" href="gallerylightbox.css">
+    <link rel="stylesheet" href="gallerypilethumbs.css">
+    <script src="https://kit.fontawesome.com/c4c7200c26.js" crossorigin="anonymous"></script>
+    <title>My work</title>
+</head>
+
+<body>
+    <div id="lightbox_mask"></div>
+    <div id="lightbox"><img src="images/gallery4/img1.jpg" alt="bild1" /></div>
+
+    <div class="wrapper">
+        <ul>
+            <li>
+                <a href="../index.html"><img class="logo" src="images/logo11.png" alt="logo"></a>
+            </li>
+        </ul>
+
+        <h1>Mine snippets</h1>
+        <main class="main__content">
+
+
+            <!-- galleri med pile -->
+            <section class="section1">
+                <h2>Gallery med pile</h2>
+                <figure class="gallery-grid">
+
+                    <div class="gallery">
+
+                        <div class="slider">
+                            <div class="slides">
+                                <img class="slide slide--active" src="images/gallery1/img1.jpg" alt="bild1">
+                                <!-- slide one ends -->
+                                <img class="slide" src="images/gallery1/img2.jpg" alt="bild2">
+                                <!-- slide two ends -->
+                                <img class="slide" src="images/gallery1/img3.jpg" alt="bild3">
+                                <!-- slide three ends -->
+                                <img class="slide" src="images/gallery1/img4.jpg" alt="bild4">
+                                <!-- slide four ends -->
+                            </div>
+                            <!-- slides ends -->
+                        </div>
+                        <!-- slider ends -->
+
+                        <div id="back"><i class="fas fa-chevron-left"></i></div>
+                        <div id="next"><i class="fas fa-chevron-right"></i></div>
+
+                    </div>
+                    <!-- gallery -->
+                    <figcaption class="caption">test</figcaption>
+                </figure>
+            </section>
+
+
+            <!-- galleri med thumbsnail -->
+            <section class="section2">
+                <h2>Gallery thumbnails</h2>
+                <img class="photo-cover" id="lrg-photo" src="images/gallery2/img1.jpg" alt="Guitar Hero play">
+                <div class="photogallery">
+                    <img class="flex" src="images/gallery2/img1.jpg" alt="Slash and others">
+                    <img class="flex" src="images/gallery2/img2.jpg" alt="Guitar Hero play">
+                    <img class="flex" src="images/gallery2/img3.jpg" alt="Axel Steel and Judy Nails">
+                    <img class="flex" src="images/gallery2/img4.jpg" alt="Slash play">
+                    <img class="flex" src="images/gallery2/img5.jpg" alt="Guitars">
+                </div>
+
+                <!--end photogallery-->
+
+            </section>
+
+
+            <!-- galleri med lightbox -->
+            <section>
+                <h2>Gallery med lightbox</h2>
+                <div class="photogallery-two">
+                    <div class="fbox">
+                        <img class="flex" src="images/gallery4/img1.jpg" alt="bild1">
+                    </div>
+
+                    <div class="fbox">
+                        <img class="flex" src="images/gallery4/img2.jpg" alt="bild2">
+                    </div>
+
+
+                    <div class="fbox"><img class="flex" src="images/gallery4/img3.jpg" alt="bild">
+                    </div>
+
+                    <div class="fbox"><img class="flex" src="images/gallery4/img4.jpg" alt="bild">
+                    </div>
+
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+            <section class="read-more">
+                <h2>Tekskt med læs-mere knap</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam eius maxime aliquid voluptatibus at amet explicabo nam tempore deserunt nobis. Officiis maiores tempore quas accusantium dolore qui labore obcaecati deleniti? Fugiat tempore
+                    quam accusantium iure nulla voluptatibus necessitatibus neque asperiores, sed autem voluptatum laudantium sit delectus error quisquam cumque assumenda dignissimos culpa consequatur perspiciatis repellendus possimus earum alias.
+                </p>
+
+                <div class="xtra-txt">
+                    <p> Reiciendis deleniti dolor nesciunt! Vel harum iusto officiis tenetur doloribus, minima quasi, nemo magnam ab laudantium dignissimos similique, animi tempora ratione? Ea quis aspernatur quas, laborum odio harum nostrum voluptas! Mollitia
+                        quibusdam.
+                    </p>
+                </div>
+
+                <p class="knap">Læs mere...</p>
+            </section>
+
+
+            <section>
+                <h2>Localstorage</h2>
+                <div class="number-raise">
+                    <p><button onclick="clickCounter()" type="button">Click me!</button></p>
+                    <p>Click above to see the number raise</p>
+
+                    <p id="number-click"></p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Table</h2>
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <td>Van Halen</td>
+                    </tr>
+                    <tr>
+                        <th>Labels</th>
+                        <td>Warner Bros, Interscope</td>
+                    </tr>
+                    <tr>
+                        <th>Songs</th>
+                        <td>Jump, Eruption</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>Gallery pile Thumbnails</h2>
+                <div class="gallery-container">
+
+                    <div id="photo">
+                        <img src="images/gallery3/img1.jpg" alt="Procida">
+                    </div>
+                    <div id="left" class="arrow">
+                        <i class="fas fa-chevron-circle-left"></i>
+                    </div>
+                    <div id="right" class="arrow">
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </div>
+                    <img class="thumb" src="images/gallery3/img1.jpg" alt="Photo 1">
+                    <img class="thumb" src="images/gallery3/img2.jpg" alt="Photo 2">
+                    <img class="thumb" src="images/gallery3/img3.jpg" alt="Photo 3">
+                    <img class="thumb" src="images/gallery3/img4.jpg" alt="Photo 4">
+                    <img class="thumb" src="images/gallery3/img5.jpg" alt="Photo 5">
+                    <img class="thumb" src="images/gallery3/img6.jpg" alt="Photo 6">
+                </div>
+            </section>
+
+            <section>
+                <h2>Form</h2>
+                <form id="form1" action="svar.html" method="POST">
+                    <div><label for="navn">Navn:</label><input type="text" name="navn"></div>
+                    <div><label for="alder">Alder:</label><input type="text" name="alder"></div>
+                    <div><label for="email1">Email:</label><input type="email" name="email1"></div>
+                    <div><label for="email2">Gentag Email:</label><input type="email" name="email2"></div>
+                    <div><label for="telefon">Telefon-nr:</label><input type="text" name="telefon"></div>
+                    <div><input type="submit" value="Tilmeld"></div>
+                    <p id="besked"></p>
+                </form>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+<script src="gallerypile.js"></script>
+<script src="gallerythumbs.js"></script>
+<script src="gallerylightbox.js"></script>
+<script src="readMore.js"></script>
+<script src="localstorage.js"></script>
+<script src="gallerypilethumbs.js"></script>
+<script src="mywork-form.js"></script>
+
+</html>
